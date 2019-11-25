@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+
+<body>
+    <h3>Profit Report: </h3>
+    <table border = 1>
+            <tr>
+               <th> Proceeds </th>
+               <td> {{ proceed }}  </td>
+            </tr>
+            <tr>
+               <th> Cost </th>
+               <td> {{ cost }}  </td>
+            </tr>
+            <tr>
+               <th> Cost Detail </th>
+               <td> </td>
+            </tr>
+            <tr>
+               <th> Total Purchase Price </th>
+               <td> {{ purchase_display }}  </td>
+            </tr>
+            <tr>
+               <th> Buy Commission </th>
+               <td> {{ b_comission }}  </td>
+            </tr>
+            <tr>
+               <th> Sell Commission </th>
+               <td> {{ s_comission }}  </td>
+            </tr>
+            <tr>
+               <th> Tax on Capital Gain </th>
+               <td> {{ tax_display }}  </td>
+            </tr>
+            <br>
+            <tr>
+               <th> Net Profit </th>
+               <td> {{ net_profit }}  </td>
+            </tr>
+            <tr>
+               <th> Return on Investment </th>
+               <td> {{ return_on_investment }}  </td>
+            </tr>
+            <tr>
+               <th> To break even, you should have a final share price of </th>
+               <td> {{ even_price }}  </td>
+            </tr>
+      </table>
+</body>
+</html>
